@@ -19,16 +19,16 @@ jobs:
 
       - name: Build and push user-service
         run: |
-          docker build -t kathuriagautam/user-service:latest ./user-service
-          docker push kathuriagautam/user-service:latest
+          docker build -t kathuriagautam2411/user-service:latest ./user-service
+          docker push kathuriagautam2411/user-service:latest
 
       - name: Build and push product-service
         run: |
-          docker build -t kathuriagautam/product-service:latest ./product-service
-          docker push kathuriagautam/product-service:latest
+          docker build -t kathuriagautam2411/product-service:latest ./product-service
+          docker push kathuriagautam2411/product-service:latest
 
       - name: Build and push frontend
         run: |
-          docker build -t kathuriagautam/frontend:latest ./frontend
-          docker push kathuriagautam/frontend:latest
+          docker build -t kathuriagautam2411/frontend:latest ./frontend
+          docker push kathuriagautam2411/frontend:latest
 
